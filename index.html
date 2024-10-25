@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre a Internet das Coisas (IoT) e suas aplicações.">
+    <title>A Revolução da Internet das Coisas (IoT)</title>
+    <style>
+
+
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0073e6;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        section.visible {
+            opacity: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        h2 {
+            color: #0073e6;
+        }
+        .tech-item {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        .tech-item img {
+            width: 150px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .tech-item img:hover {
+            transform: scale(1.1);
+        }
+        .arrow {
+            font-size: 30px;
+            color: #0073e6;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        .arrow:hover {
+            transform: scale(1.2);
+        }
+        .scroll-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .scroll-button:hover {
+            background-color: #005bb5;
+            transform: scale(1.05);
+
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Revolução da Internet das Coisas (IoT)</h1>
+        <p>Como a IoT está transformando o mundo em que vivemos.</p>
+    </header>
+
+    <nav>
+        <a href="#iot">O que é IoT?</a>
+        <a href="#aplicacoes">Aplicações</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#futuro">Futuro</a>
+        <a href="https://wa.me/5515996083862" target="_blank" class="whatsapp-button">Tire suas dúvidas no WhatsApp</a>
+    </nav>
+
+    <section id="iot" class="visible">
+        <h2>O que é IoT?</h2>
+        <p>A Internet das Coisas (IoT) refere-se à interconexão de objetos do dia a dia com a internet, permitindo que eles coletem e compartilhem dados em tempo real.</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+    <header>
+        <h1>Tecnologias por trás da IoT</h1>
+        <p>Clique nas imagens para saber mais sobre cada tecnologia.</p>
+    </header>
+    
+    <section class="technologies visible">
+        <div class="tech-item">
+            <h3>Wi-Fi</h3>
+            <a href="wifi.index.html">
+                <img src="wifi.png" alt="Wi-Fi">
+                <div class="arrow">➡️</div>
+            </a>
+        </div>
+        <div class="tech-item">
+            <h3>Zigbee</h3>
+            <a href="zigbee.html">
+                <img src="shield.png" alt="Zigbee">
+                <div class="arrow">➡️</div>
+            </a>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="tech-item">
+            <h3>Bluetooth</h3>
+            <a href="bluetooth.html">
+                <img src="bluetooth.png" alt="Bluetooth">
+                <div class="arrow">➡️</div>
+            </a>
+        </div>
+        <div class="tech-item">
+            <h3>RFID</h3>
+            <a href="rfid.html">
+                <img src="RFID.png" alt="RFID">
+                <div class="arrow">➡️</div>
+            </a>
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="aplicacoes" class="visible">
+        <h2>Aplicações da IoT</h2>
+        <p>A IoT está presente em diversos setores, como:</p>
+        <ul>
+            <li><strong>Agricultura:</strong> Monitoramento de culturas e saúde animal usando drones e sensores.</li>
+            <li><strong>Saúde:</strong> Wearables para monitorar sinais vitais, como batimentos cardíacos.</li>
+            <li><strong>Casas Inteligentes:</strong> Controle de dispositivos domésticos como luzes e termostatos via smartphone.</li>
+            <li><strong>Cidades Inteligentes:</strong> Sistemas de monitoramento de trânsito e semáforos conectados.</li>
+        </ul>
+    </section>
+
+    <section id="tecnologias" class="visible">
+        <h2>Tecnologias por trás da IoT</h2>
+        <p>As principais tecnologias que suportam a IoT incluem:</p>
+        <ul>
+
+
+
+
+
+
+
+
+            
+            <li><strong>WiFi:</strong> Usado para conectar dispositivos à internet.</li>
+            <li><strong>Zigbee:</strong> Ideal para dispositivos de baixo consumo de energia.</li>
+            <li><strong>Bluetooth:</strong> Popular em dispositivos que operam em curtas distâncias.</li>
+            <li><strong>RFID:</strong> Usado em etiquetas e sistemas de controle de acesso.</li>
+        </ul>
+    </section>
+
+    <section id="seguranca" class="visible">
+        <h2>Segurança na IoT</h2>
+        <p>Um dos maiores desafios da IoT é a segurança. Muitos dispositivos ainda transmitem dados sem criptografia, o que os torna vulneráveis a ataques de hackers.</p>
+    </section>
+
+    <section id="futuro" class="visible">
+        <h2>O Futuro da IoT</h2>
+        <p>Com a expansão da IoT, espera-se que ela continue a transformar setores como saúde, agricultura e indústria. A telemedicina e as cidades inteligentes são áreas com grande potencial de crescimento.</p>
+    </section>
+
+    <footer>
+        <h3>Sobre Nós</h3>
+        <p>Este projeto foi desenvolvido por Alex Santos, Anna Beatriz e Gabrieli Rodrigues.</p>
+    </footer>
+</body>
+</html>
